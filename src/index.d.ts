@@ -40,6 +40,8 @@ interface NumberSpinnerInstance extends TextLabel {
 	 * Whether to insert commas in relevant places
 	 */
 	Commas: boolean;
+
+	Value: number;
 }
 
 interface NumberSpinner {
@@ -54,4 +56,6 @@ interface NumberSpinner {
 	fromGuiObject(GuiObject: GuiObject): NumberSpinnerInstance;
 }
 
-export const NumberSpinner: NumberSpinner;
+declare const NumberSpinner: NumberSpinner;
+
+export = NumberSpinner;
