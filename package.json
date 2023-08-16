@@ -1,0 +1,27 @@
+{
+  "name": "@rbxts/number-spinner-typings",
+  "version": "1.0.0",
+  "description": "Boatbomber's number spinner module typings",
+  "main": "out/init.lua",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "out/index.d.ts",
+  "files": [
+    "out",
+    "!**/*.tsbuildinfo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "^2.1.1-types.0",
+    "@rbxts/types": "^1.0.709",
+    "typescript": "^5.1.6"
+  }
+}
