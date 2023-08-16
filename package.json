@@ -9,7 +9,8 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "g1mmeth3money",
+  "repository": "https://github.com/cheetiedotpy/number-spinner-typings",
   "license": "ISC",
   "types": "out/index.d.ts",
   "files": [
