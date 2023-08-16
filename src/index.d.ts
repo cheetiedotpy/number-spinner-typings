@@ -53,3 +53,5 @@ interface NumberSpinner {
 	 */
 	fromGuiObject(GuiObject: GuiObject): NumberSpinnerInstance;
 }
+
+export const NumberSpinner: NumberSpinner;

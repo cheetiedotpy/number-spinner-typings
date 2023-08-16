@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/number-spinner-typings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Boatbomber's number spinner module typings",
   "main": "out/init.lua",
   "scripts": {
